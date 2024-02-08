@@ -3,11 +3,12 @@ import { Loan } from './loan';
 import { CommonModule } from '@angular/common';
 import { Observable } from 'rxjs';
 import { LoansService } from './loans.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'loans',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './loans.component.html',
   styleUrl: './loans.component.css'
 })

@@ -3,28 +3,25 @@ import { Book } from './book';
 import { CommonModule } from '@angular/common';
 import { Observable } from 'rxjs';
 import { BooksService } from './books.service';
-import { RouterLink, RouterLinkActive, RouterOutlet, Router, ActivatedRoute } from '@angular/router';
+import { RouterLink} from '@angular/router';
 
 
 @Component({
   selector: 'books',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterLinkActive, RouterOutlet],
+  imports: [CommonModule, RouterLink],
   templateUrl: './books.component.html',
   styleUrl: './books.component.css'
 })
 export class BooksComponent implements OnInit {
+
   books$: Observable<Book[]> = new Observable<Book[]>();
-  constructor(private booksService: BooksService, private router : Router, private route : ActivatedRoute) {
-    this.getBooks();
+
+  constructor(private booksService: BooksService) {
   }
 
   ngOnInit() {
     this.getBooks();
-  }
-
-  navigateToBookDetails(book: Book) {
-    this.router.navigate(['/book', book]);
   }
 
   getBooks() {    

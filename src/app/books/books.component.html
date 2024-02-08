@@ -1,5 +1,5 @@
 <ul>
 <li *ngFor="let book of books$ | async">
-    <a (click)="navigateToBookDetails(book)">Titre: {{ book.titre }}</a>
+    <a [routerLink]="['/book']" [state]=book>Titre: {{ book.titre }}</a>
   </li>
 </ul>

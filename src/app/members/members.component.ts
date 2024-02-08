@@ -3,11 +3,12 @@ import { Member } from './member';
 import { CommonModule } from '@angular/common';
 import { Observable } from 'rxjs';
 import { MembersService } from './members.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'members',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './members.component.html',
   styleUrl: './members.component.css'
 })

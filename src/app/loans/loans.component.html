@@ -1,6 +1,6 @@
 <ul>
-    <li *ngFor="let loan of loans$ | async">
-        <p>Identifiant du pret: {{ loan._id }}</p>
-      </li>
-    </ul>
-    
+  <li *ngFor="let loan of loans$ | async">
+      <a [routerLink]="['/loan']" [state]=loan>Id du prêt : {{ loan._id }}</a>
+    </li>
+  </ul>
+  

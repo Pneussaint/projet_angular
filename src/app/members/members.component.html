@@ -1,6 +1,6 @@
 <ul>
-    <li *ngFor="let member of members$ | async">
-        <p>Nom: {{ member.name }}</p>
-      </li>
-    </ul>
+  <li *ngFor="let member of members$ | async">
+    <a [routerLink]="['/member']" [state]=member>Nom: {{ member.name }}</a>
+  </li>
+</ul>
     
