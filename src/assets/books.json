@@ -1,0 +1,92 @@
+[
+    {
+      "pages": 209,
+      "annee_de_publication": 1958,
+      "auteur": "Chinua Achebe",
+      "titre": "Things Fall Apart"
+    },
+    {
+      "pages": 784,
+      "annee_de_publication": 1836,
+      "auteur": "Hans Christian Andersen",
+      "titre": "Fairy tales"
+    },
+    {
+      "pages": 928,
+      "annee_de_publication": 1315,
+      "auteur": "Dante Alighieri",
+      "titre": "The Divine Comedy"
+    },
+    {
+      "pages": 160,
+      "annee_de_publication": -1700,
+      "auteur": "Unknown",
+      "titre": "The Epic Of Gilgamesh"
+    },
+    {
+      "pages": 176,
+      "annee_de_publication": -600,
+      "auteur": "Unknown",
+      "titre": "The Book Of Job"
+    },
+    {
+      "pages": 288,
+      "annee_de_publication": 1200,
+      "auteur": "Unknown",
+      "titre": "One Thousand and One Nights"
+    },
+    {
+      "pages": 384,
+      "annee_de_publication": 1350,
+      "auteur": "Unknown",
+      "titre": "Njál's Saga"
+    },
+    {
+      "pages": 226,
+      "annee_de_publication": 1813,
+      "auteur": "Jane Austen",
+      "titre": "Pride and Prejudice"
+    },
+    {
+      "pages": 443,
+      "annee_de_publication": 1835,
+      "auteur": "Honoré de Balzac",
+      "titre": "Le Père Goriot"
+    },
+    {
+      "pages": 256,
+      "annee_de_publication": 1952,
+      "auteur": "Samuel Beckett",
+      "titre": "Molloy, Malone Dies, The Unnamable, the trilogy"
+    },
+    {
+      "pages": 1024,
+      "annee_de_publication": 1351,
+      "auteur": "Giovanni Boccaccio",
+      "titre": "The Decameron"
+    },
+    {
+      "pages": 224,
+      "annee_de_publication": 1965,
+      "auteur": "Jorge Luis Borges",
+      "titre": "Ficciones"
+    },
+    {
+      "pages": 342,
+      "annee_de_publication": 1847,
+      "auteur": "Emily Brontë",
+      "titre": "Wuthering Heights"
+    },
+    {
+      "pages": 185,
+      "annee_de_publication": 1942,
+      "auteur": "Albert Camus",
+      "titre": "The Stranger"
+    },
+    {
+      "pages": 320,
+      "annee_de_publication": 1952,
+      "auteur": "Paul Celan",
+      "titre": "Poems"
+    }
+  ]
